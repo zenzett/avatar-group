@@ -81,13 +81,12 @@ export const AvatarGroup: React.FC<AvatarGroupProps> = ({
   return (
     <div className="flex -space-x-4 hover:-space-x-1 hover:cursor-pointer">
       {visibleUsers.map((user, index) => (
-        <div title={user.name} className="duration-300 active:scale-75">
-          <Avatar
-            key={index}
-            name={user.name}
-            picture={user.picture}
-            size={size}
-          />
+        <div
+          key={index}
+          title={user.name}
+          className="duration-300 active:scale-75"
+        >
+          <Avatar name={user.name} picture={user.picture} size={size} />
         </div>
       ))}
       {excessUsers > 0 && (
