@@ -4,16 +4,16 @@ import { AvatarGroup } from "../components/Avatar";
 
 const users = [
   {
-    name: "Tomi Budi",
+    name: "tomi budi",
     picture: "",
   },
   {
-    name: "Arlo Syahputra",
+    name: "Arlo Syahputra Alam",
     picture:
       "https://w7.pngwing.com/pngs/980/886/png-transparent-male-portrait-avatar-computer-icons-icon-design-avatar-flat-face-icon-people-head-cartoon.png",
   },
   {
-    name: "Pablo Esmeralda",
+    name: "pablo esmeralda ridwan",
     picture: "",
   },
   {
@@ -22,7 +22,7 @@ const users = [
       "https://w7.pngwing.com/pngs/980/886/png-transparent-male-portrait-avatar-computer-icons-icon-design-avatar-flat-face-icon-people-head-cartoon.png",
   },
   {
-    name: "Alice Johnson",
+    name: "alice johnson kennedy",
     picture: "",
   },
   {

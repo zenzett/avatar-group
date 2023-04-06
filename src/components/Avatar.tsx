@@ -7,7 +7,14 @@ interface AvatarProps {
 }
 
 export const Avatar: React.FC<AvatarProps> = ({ name, picture, size }) => {
-  const initial = name.charAt(0) + name.charAt(2);
+  const nameSplit = name
+    .split(" ")
+    .map((word) => word.charAt(0))
+    .join("");
+  const initial =
+    nameSplit.charAt(0).toUpperCase() +
+    nameSplit.charAt(nameSplit.length - 1).toUpperCase();
+  console.log(initial);
   const noPic = picture === "";
   let borderSize = "";
   let textSize = "";
